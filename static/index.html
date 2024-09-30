@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-devide-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text to Image</title>
-    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Text To Image</h1>
-    <label for="">Create an Image from Text prompt</label>
-    <input type="text" id="input">
-    <button class="button-85" id="btn"> Generate </button>
-    <img id="image" src="" alt=""></img>
-    <script src="static/script.js"></script>
+    <h1>Text To Image Generator</h1>
+    <label for="input">Enter a text prompt</label>
+    <input type="text" id="input" placeholder="e.g., A futuristic city landscape">
+    <button class="button-85" id="btn">Generate</button>
+    <img id="image" src="" alt="Generated Image will appear here" style="display:none">
+    <div id="loading" style="display:none;">
+        <img src="loading.gif" alt="Loading..." />
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -10,9 +10,9 @@ HF_API_KEY = "Bearer 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"
 # Serve the index.html at the root URL
 @app.route('/')
 def index():
-    return app.send_static_file('index.html')
+    return app.send_static_file('static/index.html')
 
-@app.route('/generate', methods=['POST'])
+@app.route('/', methods=['POST'])
 def generate_image():
     data = request.json
     prompt = data.get("prompt")

@@ -23,14 +23,15 @@ button.addEventListener('click', async function () {
         const objectURL = URL.createObjectURL(prompt)
         image.src = objectURL
     });
+}
+// Add click event listener to the button
+button.addEventListener("click", async function () {
+    handleGenerate();
+});
 
-})
-
-// Listen for 'click' event on the Generate button
-document.querySelector("button").addEventListener("click", generateImage);
-
-// Listen for 'Enter' key press event on the input field
-document.querySelector("input").addEventListener("keypress", function(event) {
+// Add keypress event listener to the input field to detect 'Enter' key
+inputTxt.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
-        generateImage();
+        handleGenerate();
     }
+});

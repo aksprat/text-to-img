@@ -4,17 +4,13 @@ const button = document.getElementById("btn")
 
 async function query(data) {
     image.src = "/loading.gif"
-	const response = await fetch(
-		"https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
-		{
-			headers: {
-				Authorization: "Bearer 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" ,
-				"Content-Type": "application/json",
-			},
-			method: "POST",
-			body: JSON.stringify(data),
-		}
-	);
+	const response = await fetch("/generate", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify('data')
+	});
 	const result = await response.blob();
 	return result;
 }

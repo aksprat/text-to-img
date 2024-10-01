@@ -23,5 +23,4 @@ button.addEventListener('click', async function () {
         const objectURL = URL.createObjectURL(response)
         image.src = objectURL
     });
-
 })

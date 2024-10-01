@@ -1,6 +1,7 @@
 const inputTxt = document.getElementById("input")
 const image = document.getElementById("image")
 const button = document.getElementById("btn")
+const prompt = document.querySelector("input").value;
 
 async function query(data) {
     image.src = "/loading.gif"

@@ -23,15 +23,4 @@ button.addEventListener('click', async function () {
         const objectURL = URL.createObjectURL(prompt)
         image.src = objectURL
     });
-}
-// Add click event listener to the button
-button.addEventListener("click", async function () {
-    handleGenerate();
-});
-
-// Add keypress event listener to the input field to detect 'Enter' key
-inputTxt.addEventListener("keypress", function (event) {
-    if (event.key === "Enter") {
-        handleGenerate();
-    }
-});
+})

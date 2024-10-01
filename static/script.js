@@ -9,7 +9,7 @@ async function query(data) {
     headers: {
         "Content-Type": "application/json"
     },
-    body: JSON.stringify('data')
+    body: JSON.stringify({prompt})
 	});
 	const result = await response.blob();
 	return result;

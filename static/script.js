@@ -2,7 +2,7 @@ const inputTxt = document.getElementById("input")
 const image = document.getElementById("image")
 const button = document.getElementById("btn")
 
-async function query(data) {
+async function query(prompt) {
     image.src = "/static/loading.gif"
 	const response = await fetch("/generate", {
     		method: "POST",

@@ -56,11 +56,11 @@ Click the following button to deploy the app to App Platform. If you are not cur
 
 Once in the console you can choose other services such as Database, Droplets, Autoscaling, and more!
 
-Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository]([https://github.com/do-community/us-aquarium-search/tree/main](https://github.com/aksprat/txt-to-img/tree/main)).
+Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository](https://github.com/aksprat/txt-to-img/tree/main)).
 
-To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/aksprat/text-to-image/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/aksprat/txt-to-img/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
-After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-org>/text-to-image`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **main** and **Autodeploy** is checked on. Finally, click **Next**.
+After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-org>/txt-to-img`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **main** and **Autodeploy** is checked on. Finally, click **Next**.
 
 After clicking the **Deploy to DigitalOcean** button or completing the instructions above to fork the repo, follow these steps:
 

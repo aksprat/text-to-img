@@ -25,7 +25,7 @@ This project uses the Stable Diffusion Pipeline to generate images from text pro
 
 When you run the code, you will be prompted to enter a text prompt. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The generated image will be displayed using matplotlib.
 
-This [static site](https://plankton-app-btjbf.ondigitalocean.app/) hosted on DigitalOcean App Platform  will give you a prompt to enter a text. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The website uses the Latent Diffusion Model to create and display the image as per user's input.
+This [web service]([https://txt-to-img-s92go.ondigitalocean.app/]) hosted on DigitalOcean App Platform  will give you a prompt to enter a text. Once you have entered a text prompt, the Stable Diffusion Pipeline will generate an image based on the text prompt. The website uses the Latent Diffusion Model to create and display the image as per user's input.
 
 [Autoscaling](https://www.digitalocean.com/blog/introducing-cpu-based-autoscaling-app-platform?utm_team=devrel&utm_source=github&utm_content=blog) is also enabled in the deployed app to ensure that the app can handle increased traffic. To learn more about autoscaling, see the [Autoscaling video by Bikram Gupta](https://www.youtube.com/watch?v=k8pCGYPeqOQ).
 
@@ -51,12 +51,12 @@ To run this file you need a HuggingFace API Token.
 Click the following button to deploy the app to App Platform. If you are not currently logged in with your DigitalOcean account, this button prompts you to to log in.
 
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/aksprat/text-to-image/tree/main)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/aksprat/txt-to-img/tree/main)
 
 
 Once in the console you can choose other services such as Database, Droplets, Autoscaling, and more!
 
-Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository]([https://github.com/do-community/us-aquarium-search/tree/main](https://github.com/aksprat/text-to-image/tree/main)).
+Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository]([https://github.com/do-community/us-aquarium-search/tree/main](https://github.com/aksprat/txt-to-img/tree/main)).
 
 To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/aksprat/text-to-image/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 

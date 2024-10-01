@@ -12,7 +12,7 @@ HF_API_KEY = "Bearer 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"
 def index():
     return app.send_static_file('static/index.html')
 
-@app.route('/', methods=['POST'])
+@app.route('/generate', methods=['POST'])
 def generate_image():
     data = request.json
     prompt = data.get("prompt")

@@ -1,0 +1,7 @@
+spec:
+ name: text-to-image
+ static_sites:
+ - git:
+     branch: main
+     repo_clone_url: https://github.com/aksprat/txt-to-img.git
+   name: text-to-image

@@ -24,3 +24,9 @@ button.addEventListener('click', async function () {
         image.src = objectURL
     });
 })
+button.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById(“btn”).click();
+  }
+});

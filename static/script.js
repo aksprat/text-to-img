@@ -3,7 +3,7 @@ const image = document.getElementById("image")
 const button = document.getElementById("btn")
 
 async function query(data) {
-    image.src = "/loading.gif"
+    image.src = "/static/loading.gif"
 	const response = await fetch(
 		"https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
 		{

@@ -56,7 +56,7 @@ Click the following button to deploy the app to App Platform. If you are not cur
 
 Once in the console you can choose other services such as Database, Droplets, Autoscaling, and more!
 
-Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository](https://github.com/aksprat/txt-to-img/tree/main)).
+Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository](https://github.com/aksprat/txt-to-img/tree/main).
 
 To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/aksprat/txt-to-img/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 

@@ -8,7 +8,7 @@ async function query(data) {
 		"https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
 		{
 			headers: {
-				Authorization: "Bearer ${process.env.HF_AUTH_TOKEN}" ,
+				Authorization: "Bearer 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" ,
 				"Content-Type": "application/json",
 			},
 			method: "POST",

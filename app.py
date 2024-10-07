@@ -5,7 +5,7 @@ from io import BytesIO
 app = Flask(__name__, static_folder="static", template_folder="static")
 
 HF_API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
-HF_API_KEY = 'Bearer ${process.env.HF_AUTH_TOKEN}'
+HF_API_KEY = "Bearer ${process.env.HF_AUTH_TOKEN}"
 
 # Serve the index.html at the root URL
 @app.route('/')
